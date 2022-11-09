@@ -1,0 +1,1 @@
+python train.py --data_path "data" --data_name f30k_precomp --vocab_path "vocab" --logger_name runs/coco_scan/log/base --model_name runs/coco_scan/log/base --max_violation --bi_gru  --agg_func=Mean --cross_attn=i2t --lambda_softmax=4 --resume model_best.pth.tar --learning_rate 2e-5
